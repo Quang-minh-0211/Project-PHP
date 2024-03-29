@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.nav-bar{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100% !important;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+}
+.nav-bar li{
+    display: inline;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar li button{
+    height: 100%;
+    background: none;
+    width: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.nav-bar li svg{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nav-bar li button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-bar li button a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: 600;
+}
+.nav-btn{
+    margin-right: 30px;
+    height: 100% !important;
+    background:none;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.nav-btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 6px;
+}
+main{
+    margin: 20px;
+}
+.hero_container{
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    font-weight: 400;
+}
+.hero-container-0{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: none;
+    font-weight: 600;
+    padding: 10px;
+}
+.hero-container-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* align-items: center; */
+    padding-top: 40px;
+    height: 125px;
+}
+.text{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.hero-container-1 ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+.hero-container-1 li{
+    margin-left: 20px;
+    font-size: larger;
+    margin-right: 100px;
+}
+.hero-container-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 110px;
+}
+.hero-container-2 ul{
+    padding-left: 15px;
+    list-style-type: none;
+}
+.hero-container-2 li{
+    margin-top: 10px;
+    font-size: larger;
+}
+.hero-container-3{
+    display: flex;
+    flex-direction: column;
+    background:none;
+    margin-top: 30px;
+}
+.hero-container-3 ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+.hero-container-3 li{
+    margin-left: 20px;
+}
+.hero-container-3 button{
+    margin-top: 10px;
+    width:60px;
+    height:30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+/* .hero-container-3 li input-box{
+    height: 35px;
+    width: 220px;
+} */
+.checkbox{
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.input-box{
+    height: 35px;
+    width: 220px;
+}
+#checkbox{
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+#dropdown{
+    height: 35px;
+    width: 220px;
+}
+.hero3-title{
+    display: flex;
+    margin: 20px;
+    font-size: larger;
+}
+.hero-container-4{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.hero4-title{
+    display: flex;
+    margin: 20px;
+    font-size: larger;
+}
+.hero-container-4 ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+.hero-container-4 li{
+    margin-left: 20px;
+}
+.input-box-2{
+    height: 35px;
+    width: 290px;
+}
+.check-box-2{
+    height: 35px;
+    width: 290px;
+}
+.hero-container-4 button{
+    margin-top: 10px;
+    width:60px;
+    height:30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+.circle{
+    border: 1px solid  #f472b6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
